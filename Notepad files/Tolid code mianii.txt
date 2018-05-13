@@ -1,0 +1,29 @@
+if (a*a==a*b+c*c)
+
+t1=id5*id6
+t2=id4+t1
+t3=t2*id3
+t4=id1*id2
+
+
+
+
+
+else if (b*b==a*a+c*c) 
+
+t4=id1*id2
+t3=t2*id3
+t2=id4+t1
+t4=t3*t2
+
+
+
+
+
+else if (c*c==a*a+b*b)
+
+t1=id5*id6
+t2=id4+t1
+t3=t2*id3
+t4=id1*id2
+t3=t4

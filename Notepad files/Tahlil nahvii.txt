@@ -1,0 +1,128 @@
+cout << " enter number a: " ;
+
+type --->cout
+STD :: " enter number a "
+
+
+
+
+
+cin >> a ;
+
+type --->cin
+E ---> E,var | var
+var ---> id
+
+
+
+
+
+cout << " enter number b: " ;
+
+type --->cout
+STD :: " enter number b "
+
+
+
+
+
+cin >> b ;
+
+type ---> cin
+E ---> E,var | var
+var ---> id
+
+
+
+
+
+cout << " enter number c: " ;
+
+type ---> cout
+STD :: " enter number c "
+
+
+
+
+
+cin >> c ;
+
+type ---> cin
+E ---> E,var | var
+var ---> id
+
+
+
+
+
+if (a*a == b*b + c*c)
+
+type ---> if
+E ---> E,var | var
+var ---> id
+
+
+
+
+
+cout << " right angle " ;
+
+type ---> cout
+STD :: "right angle"
+
+
+
+
+
+else if (b*b == a*a + c*c)
+
+type ---> if
+E ---> E , var | var
+var ---> id
+
+
+
+
+
+cout << " right angle " ;
+
+type ---> cout
+STD :: "right angle"
+
+
+
+
+
+else if (c*c == a*a + b*b)
+
+type ---> if
+E ---> E , var | var
+var ---> id
+
+
+
+
+
+
+cout << " right angle " ;
+
+type ---> cout
+STD :: "right angle"
+
+
+
+
+
+cout << " not right angle " ;
+
+type ---> cout
+STD :: "not right angle"
+
+
+
+
+
+return 0 ;
+
+type ---> return
+num ---> 0

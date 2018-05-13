@@ -1,0 +1,134 @@
+#include<iostream.h>
+
+<delimeters,#><keyword,include><delimeters,< ><keyword,iostream.h><delimeters,> >
+
+
+
+#include<conio.h>
+
+<delimeters,#><keyword,include><delimeters,< ><keyword,conio.h><delimeters,> >
+
+
+
+
+int main () {
+
+<keyword,int><keyword,main><delimeters,( ><delimeters,) ><delimeters,{ >
+
+
+
+
+int a,b,c ;
+
+<keyword,int><id1,a><delimeters, ,><id2,b><delimeters, ,><id3,c><delimeters, ;>
+
+
+
+
+cout<<"enter number a:" ;
+
+<keyword,cout><delimeters,<< ><delimeters,"><std,enter number a><delimeters, :><delimeters,"><delimeters, ;>
+
+
+
+
+cin>>a;
+
+<keyword,cin><delimeters,>> ><id,a><delimeters, ;>
+
+
+
+
+cout<<"enter number b:" ;
+
+<keyword,cout><delimeters,<< ><delimeters,"><std,enter number b><delimeters, :><delimeters,"><delimeters, ;>
+
+
+
+
+cin>>b;
+
+<keyword,cin><delimeters,>> ><id,b><delimeters, ;>
+
+
+
+
+cout<<"enter number c:" ;
+
+<keyword,cout><delimeters,<< ><delimeters,"><std,enter number c><delimeters, :><delimeters,"><delimeters, ;>
+
+
+
+
+cin>>c;
+
+<keyword,cin><delimeters,>> ><id,c><delimeters, ;>
+
+
+
+
+if (a*a==b*b+c*c)
+
+<keyword,if><delimeters,( ><id1,a><operators1,*><id2,a><operator2,==><id3,b><operator3,*><id4,b><operator4,+><id5,c><operator5,*><id6,c><delimeters,) >
+
+id1 * id2 == id3 * id4 + id5 * id6
+
+
+
+
+cout<<"right angle" ;
+
+<keyword,cout><delimeters,<< ><delimeters,"><std,right angle><delimeters,"><delimeters, ;>
+
+
+
+
+else if (b*b==a*a+c*c)
+
+<keyword,else><keyword,if><delimeters,( ><id1,b><operators1,*><id2,b><operator2,==><id3,a><operator3,*><id4,a><operator4,+><id5,c><operator5,*><id6,c><delimeters,) >
+
+id1 * id2 == id3 * id4 + id5 * id6
+
+
+
+
+cout<<"right angle" ;
+
+<keyword,cout><delimeters,<< ><delimeters,"><std,right angle><delimeters,"><delimeters, ;>
+
+
+
+
+else if (c*c==a*a+b*b)
+
+<keyword,else><keyword,if><delimeters,( ><id1,c><operators1,*><id2,c><operator2,==><id3,a><operator3,*><id4,a><operator4,+><id5,b><operator5,*><id6,b><delimeters,) >
+
+id1 * id2 == id3 * id4 + id5 * id6
+
+
+
+
+cout<<"right angle" ;
+
+<keyword,cout><delimeters,<< ><delimeters,"><std,right angle><delimeters,"><delimeters, ;>
+
+
+
+
+else cout<<"not right angle" ;
+
+<keyword,else><keyword,cout><delimeters,<< ><delimeters,"><std,not right angle><delimeters,"><delimeters, ;>
+
+
+
+
+getch() ;
+
+<keyword,getch><delimeters,( ><delimetrs,) ><delimeters, ;>
+
+
+
+
+return 0 ;  }
+
+<keyword,retur><num,0><delimeters, ;><delimeters, }>

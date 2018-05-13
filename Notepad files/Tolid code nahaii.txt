@@ -1,0 +1,42 @@
+if (a*a==a*b+c*c)
+
+MOV  R3,id5
+MUL  id6.R3
+MOV  R2,id4
+MUL  R2,id3
+ADD  R2,R3
+MOV  id1,R1
+MUL  id2,R1
+MOV  R2,R1
+
+
+
+
+
+ 
+else if (b*b==a*a+c*c)
+
+MOV  R3,id5
+MUL  R3,id6
+MOV  R2,id4
+MUL  R2,id3
+ADD  R2.R3
+MOV  R1,id1
+MUL  R1,id2
+mov  R1,R2
+
+
+
+
+
+
+else if (c*c==a*a+b*b)
+
+MOV  R3,id5
+MUL  R3,id6
+MOV  id4,R2
+MUL  R2,id3
+ADD  R2,R3
+MOV  R1,id2
+MUL  R1,id2
+MOV  R1,R2
